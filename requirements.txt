@@ -1,0 +1,9 @@
+# finance-research skill - dependency Python
+# Install sekali per sesi (atau cek dulu apakah sudah terpasang):
+#   pip install -r requirements.txt --break-system-packages
+
+numpy
+pandas
+yfinance
+scipy
+financedatabase
