@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "description": "Seven skills from user-supplied repositories for equity research, valuation, market risk, financial screening and editable diagrams.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "shortDescription": "Research, valuation and risk",
+        "developerName": "Ahmad Hafizh",
+        "longDescription": "Equity research with industry references and valuation scripts, five financial coding workflows, and Draw2D diagram development. Bundled source supports local execution when its runtime and data are available; installing skills does not provision Python, MATLAB, Databricks or market-data access.",
+        "capabilities": [],
+        "displayName": "Finance Research Toolkit",
+        "category": "Productivity",
+        "defaultPrompt": "Use the appropriate Finance Research Toolkit skill for my research, valuation, risk or diagram task."
+      }
+    }
+  },
+  "author": {
+    "name": "Ahmad Hafizh"
+  },
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "finance-research-toolkit"
+}
